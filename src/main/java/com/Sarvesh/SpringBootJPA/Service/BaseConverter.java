@@ -14,7 +14,7 @@ public class BaseConverter {
 			result.append(Characters.charAt(remainder));
 			l /= BASE;
 		}
-		return result.toString().toUpperCase();
+		return result.reverse().toString().toUpperCase();
 	}
 	
 	public long StringToLong(String s) {
